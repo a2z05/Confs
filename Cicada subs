@@ -1,38 +1,205 @@
-لیستی از بهترین ساب های رایگان
-Mahsa_Net
-ترجیحاً همراه اول:
-https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mci/sub_1.txt 
+vless://89b3cbba-e6ac-485a-9481-976a0415eab9@188.114.96.3:443?path=%2FH6uqRO29PGRyT2AW%3Fed%3D2560&security=tls&encryption=none&alpn=h2,http/1.1&host=bbf9c21A.teChneTbpB.pAges.DEv&fp=randomized&type=ws&sni=bbF9c21a.teCHnetbPb.pAGes.dev#TechNet
 
-https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mci/sub_2.txt
+vless://ec6e3722-1456-44eb-8349-d565aa774174@69cha1.xyz:80?path=%2FTelegram%3A%40VPNHTTPInjectorfree-Telegram%3A%40VPNHTTPInjectorfree-Telegram%3A%40VPNHTTPInjectorfree%3Fed%3D2048&security=none&encryption=none&host=telegram-vpnhttpinjectorfree-31.hawage8393.workers.dev&type=ws#%F0%9F%87%A9%F0%9F%87%AA+Germany+%F0%9F%98%88
 
-https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mci/sub_3.txt
-
-https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mci/sub_4.txt
-ترجیحاً ایرانسل:
-https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mtn/sub_1.txt
-
-https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mtn/sub_2.txt
-
-https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mtn/sub_3.txt
-
-https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mtn/sub_4.txt
-ساب های زیر در هیدیفای پیشنهاد میشه :
-https://raw.githubusercontent.com/xc0000e9/deatnote/main/Hiddify-next.fragment
-ㅤ
-
-https://sub.nimservers.site/Servers.txt#Servers-@NimServers
-ㅤ
-
-https://raw.githubusercontent.com/arshiacomplus/V1-V2-v3ray/main/V2ray.html
-ㅤ
-
-https://api.secure-tunnel.site/BH4zCR7yvhTitPN5xWA6gjEW5xJKWLJ2
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpDbGRpZ2pSQUxhZXlmMnNEb3BxNUlu@172.232.36.182:50876#%F0%9F%8C%B1%20Outline%20%7C%20%40ReliableShield%2021May%20%F0%9F%87%AB%F0%9F%87%B7
 
 
-https://eliv2ray.cloud/Shadowsocks-By-ELENA.txt
-ㅤ
 
-https://raw.githubusercontent.com/FNET00bot/FNET00/Config/Main
-ㅤ
+vless://Telegram---V2rayNGcloud---@185.146.173.237:80?path=%2F%40v2rayNGcloud-%40v2rayNGcloud-&security=none&encryption=none&host=V2ray.digikala.com-mykit.ir.nobitex.com.IMhyW5477e.V2RAYNGCLOUD.OnlInEdowNloadERfile.com.&type=ws#@vpnstorefast
+vless://Telegram---V2rayNGcloud---@visa.com:80?path=%2F%%40v2rayNGcloud-%40v2rayNGcloud-&security=none&encryption=none&host=V2ray.digikala.com-mykit.ir.nobitex.com.IMhyW5477e.V2RAYNGCLOUD.OnlInEdowNloadERfile.com.&type=ws#@vpnstorefast
 
-https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.txt
+{
+  "remarks": "وب گردی و گیم",
+  "dns": {
+    "hosts": {
+      "geosite:category-ads-all": "127.0.0.1",
+      "geosite:category-ads-ir": "127.0.0.1"
+    },
+    "servers": [
+      "https://dns.adguard-dns.com/dns-query"
+    ],
+    "queryStrategy": "UseIP",
+    "tag": "dns"
+  },
+  "inbounds": [
+    {
+      "port": 10808,
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "userLevel": 8
+      },
+      "sniffing": {
+        "destOverride": [
+          "http",
+          "tls",
+          "fakedns"
+        ],
+        "enabled": true
+      },
+      "tag": "socks"
+    },
+    {
+      "port": 10809,
+      "protocol": "http",
+      "settings": {
+        "userLevel": 8
+      },
+      "tag": "http"
+    }
+  ],
+  "log": {
+    "loglevel": "warning"
+  },
+  "outbounds": [
+    {
+      "tag": "fragment",
+      "protocol": "freedom",
+      "settings": {
+        "fragment": {
+          "packets": "tlshello",
+          "length": "10-30",
+          "interval": "1-2"
+        },
+        "domainStrategy": "UseIP"
+      },
+      "streamSettings": {
+        "sockopt": {
+          "tcpKeepAliveIdle": 100,
+          "tcpNoDelay": true
+        }
+      }
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "google.com",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "chrome",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "serverName": "google.com"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "google.com"
+          },
+          "path": "/"
+        }
+      },
+      "tag": "fake-outbound"
+    },
+    {
+      "protocol": "freedom",
+      "settings": {
+        "domainStrategy": "UseIP"
+      },
+      "tag": "direct"
+    },
+    {
+      "protocol": "blackhole",
+      "settings": {
+        "response": {
+          "type": "http"
+        }
+      },
+      "tag": "block"
+    }
+  ],
+  "policy": {
+    "levels": {
+      "8": {
+        "connIdle": 300,
+        "downlinkOnly": 1,
+        "handshake": 4,
+        "uplinkOnly": 1
+      }
+    },
+    "system": {
+      "statsOutboundUplink": true,
+      "statsOutboundDownlink": true
+    }
+  },
+  "routing": {
+    "domainStrategy": "IPIfNonMatch",
+    "rules": [
+      {
+        "domain": [
+          "domain:.ir"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      },
+      {
+        "ip": [
+          "geoip:private",
+          "geoip:ir"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      },
+      {
+        "domain": [
+          "geosite:category-ads-all",
+          "geosite:category-ads-ir"
+        ],
+        "outboundTag": "block",
+        "type": "field"
+      }
+    ]
+  },
+  "stats": {}
+}
+
+
+
+vless://Telegram---V2rayNGcloud---@185.146.173.237:80?path=%2F%40v2rayNGcloud-%40v2rayNGcloud-&security=none&encryption=none&host=V2ray.digikala.com-mykit.ir.nobitex.com.IMhyW5477e.V2RAYNGCLOUD.OnlInEdowNloadERfile.com.&type=ws#@vpnstorefast
+vless://Telegram---V2rayNGcloud---@visa.com:80?path=%2F%%40v2rayNGcloud-%40v2rayNGcloud-&security=none&encryption=none&host=V2ray.digikala.com-mykit.ir.nobitex.com.IMhyW5477e.V2RAYNGCLOUD.OnlInEdowNloadERfile.com.&type=ws#@vpnstorefast
+
+
+
+vless://24f744f9-82b0-447b-910a-bf66260fecb6@188.114.96.3:8880?path=%2Ftelegram-Grizzlypn%2Ctelegram-Grizzlypn%2Ctelegram-Grizzlypn%2Ctelegram-Grizzlypn%2Ctelegram-Grizzlypn%2Ctelegram-Grizzlypn%2Ctelegram-Grizzlypn%2Ctelegram-Grizzlypn%2Ctelegram-Grizzlypn%2Ctelegram-Grizzlypn%2Ctelegram-Grizzlypn%2Ctelegram-Grizzlypn%2Ctelegram-Grizzlypn%2Ctelegram-Grizzlypn%2Ctelegram-Lookivpn%2CGrizzlypn-Grizzlypn-telegram-Grizzlypn-v2ray%3Fed%3D2048&security=none&encryption=none&host=2.V2ray.debian.org.fxp.debian.org.speedtest.net.%E3%82%89%E3%82%8F%E3%81%AA%E3%81%95%E3%82%89%E3%82%8F.kholochel.shop.&type=ws#GrizzlyVPN
+
+vless://b0138d55-a493-4dc3-9932-c6f0391707c1@188.114.96.3:2082?path=%2F%3Fed%3D2048&security=none&encryption=none&host=malaysiadj.card-937.workers.dev&type=ws#%40PR_GUARD
+
+
+vless://b0138d55-a493-4dc3-9932-c6f0391707c1@188.114.96.3:2082?path=%2F%3Fed&security=none&encryption=none&host=malaysiadj.card-937.workers.dev&type=ws#%40PR_GUARD
+
+
+vless://7143e704-5957-42db-bd38-670062722461@172.67.217.107:80?path=%2F%3Fed&security=none&encryption=none&host=buyz.ribiwa9933.workers.dev&type=ws#%40PR_GUARD
+
+vless://a7a21a88-42fc-4950-8772-def3d2b674fc@185.146.173.58:80/?type=ws&path=%2FTelegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy%3Fed%3D2048&host=2.ftp.debian.org.www.speedtest.net.%E5%85%8D%E8%B4%B9%E4%B8%8A%E7%BD%9167.Site.&security=none#JOIN:@free_v2rayyy
+vless://b0138d55-a493-4dc3-9932-c6f0391707c1@188.114.96.3:2082?path=%2F%3Fed%3D2048&security=none&encryption=none&host=malaysiadj.card-937.workers.dev&type=ws#%40PR_GUARD
+
+
+vless://b0138d55-a493-4dc3-9932-c6f0391707c1@188.114.96.3:2082?path=%2F%3Fed&security=none&encryption=none&host=malaysiadj.card-937.workers.dev&type=ws#%40PR_GUARD
+
+
+vless://7143e704-5957-42db-bd38-670062722461@172.67.217.107:80?path=%2F%3Fed&security=none&encryption=none&host=buyz.ribiwa9933.workers.dev&type=ws#%40PR_GUARD
+
+vless://70b6692c-038e-442d-a6b8-27beb85fac51@185.146.173.94:80?type=ws&path=%2Ftelegram-%40NET%2Ctelegram-NET%2Ctelegram-NET%2Ctelegram-NET%2Ctelegram-NET%2Ctelegram-NET%2Ctelegram-NET%2Ctelegram-NET%2Ctelegram-NET%2Ctelegram-NET%2Ctelegram-NET%2Ctelegram-NET%2Ctelegram-NET%2Ctelegram-NET%2Ctelegram-NET%2CMmdv2rayng-V2rayngmmd-telegram-NET-v2ray%3Fed%3D2056&host=freeservicemangeronercsmkflsdflsdfkfdsf-vip-master-nik.1.1.1.1.25.xn--blqw2a5no5ed8cm6xw0gw2i6ooehteuz1wcw61apn4a.com.&security=none#SPDNET
+vless://70b6692c-038e-442d-a6b8-27beb85fac51@185.146.173.58:443?type=ws&path=%2Ftelegram-%40NET%2Ctelegram-NET%2Ctelegram-NET%2Ctelegram-NET%2Ctelegram-NET%2Ctelegram-NET%2Ctelegram-NET%2Ctelegram-NET%2Ctelegram-NET%2Ctelegram-NET%2Ctelegram-NET%2Ctelegram-NET%2Ctelegram-NET%2Ctelegram-NET%2Ctelegram-NET%2CMmdv2rayng-V2rayngmmd-telegram-NET-v2ray%3Fed%3D2056&host=freeservicemangeronercsmkflsdflsdfkfdsf-vip-master-nik.1.1.1.1.25.xn--blqw2a5no5ed8cm6xw0gw2i6ooehteuz1wcw61apn4a.com.&security=none#SPDNET
+vless://70b6692c-038e-442d-a6b8-27beb85fac51@185.146.173.58:443?type=ws&path=%2Ftelegram-%40NET%2Ctelegram-NET%2Ctelegram-NET%2Ctelegram-NET%2Ctelegram-NET%2Ctelegram-NET%2Ctelegram-NET%2Ctelegram-NET%2Ctelegram-NET%2Ctelegram-NET%2Ctelegram-NET%2Ctelegram-NET%2Ctelegram-NET%2Ctelegram-NET%2Ctelegram-NET%2CMmdv2rayng-V2rayngmmd-telegram-NET-v2ray%3Fed%3D2056&host=freeservicemangeronercsmkflsdflsdfkfdsf-vip-master-nik.1.1.1.1.25.xn--blqw2a5no5ed8cm6xw0gw2i6ooehteuz1wcw61apn4a.com.&security=none#SPDNET
