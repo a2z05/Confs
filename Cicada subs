@@ -24,3 +24,4 @@ vless://bia-PROXY_MTM@185.146.173.58:80?path=%2F%2Ftelegram-proxy-mtm-telegram-p
 trojan://telegram-id-directvpn@3.98.110.239:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Cicada_network+23
 trojan://telegram-id-directvpn@54.77.92.199:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Cicada_network+24
 trojan://telegram-id-directvpn@13.42.145.35:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Cicada_network+25
+vless://telegram-id-ArV2ray@185.146.173.94:80?path=%2Ftelegram-ArV2ray%2Ctelegram-ArV2ray%2Ctelegram-ArV2ray%2Ctelegram-ArV2ray%2Ctelegram-ArV2ray%2Ctelegram-ArV2ray%2Ctelegram-ArV2ray%2Ctelegram-ArV2ray%2Ctelegram-ArV2ray%2Ctelegram-ArV2ray%2Ctelegram-ArV2ray%2Ctelegram-ArV2ray%3Fed%3D2048&security=none&encryption=none&host=4.V2ray.debian.org.rd.org.speedtest.net.%E3%82%89%E3%82%8F%E3%81%AA%E3%81%95%E3%82%89%E3%82%8F.Tech.&type=ws#Cicada_Network+26
